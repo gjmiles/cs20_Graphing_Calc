@@ -1,29 +1,10 @@
-  ____                 _     _             
- / ___|_ __ __ _ _ __ | |__ (_)_ __   __ _ 
-| |  _| '__/ _` | '_ \| '_ \| | '_ \ / _` |
-| |_| | | | (_| | |_) | | | | | | | | (_| |
- \____|_|  \__,_| .__/|_| |_|_|_| |_|\__, |
-                |_|                  |___/ 
-  ____      _            _       _             
- / ___|__ _| | ___ _   _| | __ _| |_ ___  _ __ 
-| |   / _` | |/ __| | | | |/ _` | __/ _ \| '__|
-| |__| (_| | | (__| |_| | | (_| | || (_) | |   
- \____\__,_|_|\___|\__,_|_|\__,_|\__\___/|_|   
-                                              
-A graphing calculator and computational numeric system with GUI interface.
-  ____                                   __  __ _ _             
- / ___|_ __ ___  __ _  ___  _ __ _   _  |  \/  (_) | ___  ___   
-| |  _| '__/ _ \/ _` |/ _ \| '__| | | | | |\/| | | |/ _ \/ __|  
-| |_| | | |  __/ (_| | (_) | |  | |_| | | |  | | | |  __/\__ \_ 
- \____|_|  \___|\__, |\___/|_|   \__, | |_|  |_|_|_|\___||___( )
-                |___/            |___/                       |/ 
- _____          _                        __  __           _        
-|__  /__ _  ___| |__   __ _ _ __ _   _  |  \/  | ___  ___| | _____ 
-  / // _` |/ __| '_ \ / _` | '__| | | | | |\/| |/ _ \/ _ \ |/ / __|
- / /| (_| | (__| | | | (_| | |  | |_| | | |  | |  __/  __/   <\__ \
-/____\__,_|\___|_| |_|\__,_|_|   \__, | |_|  |_|\___|\___|_|\_\___/
-                                 |___/                             
+#Graphing Calculator
 
+A graphing calculator and computational numeric system with GUI interface.
+
+Gregory Miles
+
+Zachary Meeks
 
 This project was done for CS20 Independent Study at Pasadena City College with
 Dr Wilkinson.
@@ -34,46 +15,83 @@ Dr Wilkinson.
 Function names can be anything from a-z except x and &.
 
 For assignment use:
+
 (function name)= function
 
+
 eval (function name)
+
 print (function name)
+
 plot (function name)
 
+
 For taking integrals use:(function name)= $(function name)
+
+
 For taking derivative use:(function name)= (function name)'
+
+
 
 Other common operators are also used: +-*/ and for exponents ^
 
+
+
 Numbers can be fraction or decimals.
 
-To do the natural log first (function name A)=(variable)^-1
-then (function name)=$(function name A)
+
+To do the natural log first 
+
+(function name A)=(variable)^-1
+
+
+then 
+
+(function name)=$(function name A)
 
 #Examples:
 
+
 Save a function:
+
 p=x^4+x^3
+
 Then take intergral:
+
 p=$p 
+
 Then plot:
+
 plot p
+
 Then evaluate at a point:
+
 eval p(7)
+
 Then print out p:
+
 print p
+
 Then take derivative of function:
+
 p=p'
+
 Functions can also be added add, subtract, divide and multiply function:
 (If the natural log is in the denominator of a function divide the
 program is not yet designed to handle this situation)
 
 q=x^3+x^7
+
 Add the function q and p together:
+
 z=q+p
+
 print z
+
 plot z
+
 eval z(7)
+
 
 
 After clicking or tabbing to the graph, it can be
