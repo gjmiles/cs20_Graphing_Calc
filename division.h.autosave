@@ -1,0 +1,28 @@
+#ifndef DIVISION_H
+#define DIVISION_H
+#include "expression.h"
+
+using namespace std;
+
+class division
+{
+public:
+    division();
+    division(expression numer);
+
+    friend
+    division operator*(const expression &x, const expression &y);
+
+    friend
+    expression operator+(const expression &x, const expression &y);
+
+    friend
+    expression operator-(const expression &x, const expression &y);
+
+
+private:
+    expression numerator;
+    expression denominator;
+};
+
+#endif // DIVISION_H
